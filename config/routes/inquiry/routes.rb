@@ -29,4 +29,14 @@ SS::Application.routes.draw do
     get "node/(index.:format)" => "public#index", cell: "nodes/node"
   end
 
+  part "inquiry" do
+    get "mini" => "public#new", cell: "parts/mini"
+#    get "form/(index.:format)" => "public#new", cell: "nodes/form"
+#    get "form/sent.html" => "public#sent", cell: "nodes/form"
+#    get "form/results.html" => "public#results", cell: "nodes/form"
+#    post "form/confirm.html" => "public#confirm", cell: "nodes/form"
+#    post "form/create.html" => "public#create", cell: "nodes/form"
+#    get "node/(index.:format)" => "public#index", cell: "nodes/node"
+  end
+
 end

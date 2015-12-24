@@ -53,6 +53,8 @@ ja:
     nodes:
       inquiry/form: フォーム
       inquiry/node: フォーム一覧
+    parts:
+      inquiry/mini: フォームパーツ
 
   mongoid:
     attributes:
